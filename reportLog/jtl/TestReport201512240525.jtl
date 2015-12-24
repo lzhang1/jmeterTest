@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<sample t="162" lt="0" ts="1450949119449" s="true" lb="ClearAdmin" rc="1" rm="OK" tn="InterTest 1-1" dt="text" by="157" ng="1" na="1"/>
+<httpSample t="139" lt="139" ts="1450949120051" s="true" lb="failedpasswd" rc="200" rm="OK" tn="InterTest 1-1" dt="text" by="2633" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="54" lt="54" ts="1450949120203" s="true" lb="failedusername" rc="200" rm="OK" tn="InterTest 1-1" dt="text" by="2553" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="56" lt="55" ts="1450949120259" s="true" lb="failenothing" rc="200" rm="OK" tn="InterTest 1-1" dt="text" by="2553" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="29" lt="29" ts="1450949120316" s="true" lb="signin" rc="200" rm="OK" tn="InterTest 1-1" dt="text" by="352" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="57" lt="57" ts="1450949120347" s="true" lb="smsloglist" rc="200" rm="OK" tn="InterTest 1-1" dt="text" by="6749" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="31" lt="31" ts="1450949120409" s="true" lb="defaultshow" rc="200" rm="OK" tn="InterTest 1-1" dt="text" by="941" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="32" lt="32" ts="1450949120443" s="true" lb="searchshow" rc="200" rm="OK" tn="InterTest 1-1" dt="text" by="826" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="27" lt="26" ts="1450949120477" s="true" lb="signout" rc="200" rm="OK" tn="InterTest 1-1" dt="text" by="350" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+
+<sample t="141" lt="0" ts="1450949122767" s="true" lb="ClearAdmin" rc="1" rm="OK" tn="InterTest 1-1" dt="text" by="157" ng="1" na="1"/>
+<httpSample t="132" lt="132" ts="1450949123269" s="true" lb="failedpasswd" rc="200" rm="OK" tn="InterTest 1-1" dt="text" by="2633" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="56" lt="55" ts="1450949123415" s="true" lb="failedusername" rc="200" rm="OK" tn="InterTest 1-1" dt="text" by="2553" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="55" lt="54" ts="1450949123472" s="true" lb="failenothing" rc="200" rm="OK" tn="InterTest 1-1" dt="text" by="2553" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="28" lt="28" ts="1450949123531" s="true" lb="signin" rc="200" rm="OK" tn="InterTest 1-1" dt="text" by="352" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="56" lt="53" ts="1450949123561" s="true" lb="usershow" rc="200" rm="OK" tn="InterTest 1-1" dt="text" by="10970" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="36" lt="36" ts="1450949123620" s="true" lb="failedcreate" rc="200" rm="OK" tn="InterTest 1-1" dt="text" by="470" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="117" lt="117" ts="1450949123667" s="true" lb="createpm" rc="200" rm="OK" tn="InterTest 1-1" dt="text" by="379" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<sample t="135" lt="49" ts="1450949123786" s="true" lb="checkpm" rc="200" rm="OK" tn="InterTest 1-1" dt="text" by="8" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<httpSample t="35" lt="35" ts="1450949123923" s="false" lb="createrd" rc="200" rm="OK" tn="InterTest 1-1" dt="text" by="470" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /&quot;msg&quot;:&quot;success&quot;/</failureMessage>
+  </assertionResult>
+</httpSample>
+<sample t="1" lt="0" ts="1450949123959" s="true" lb="checkrd" rc="200" rm="OK" tn="InterTest 1-1" dt="text" by="8" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<httpSample t="33" lt="33" ts="1450949123962" s="false" lb="createqa" rc="200" rm="OK" tn="InterTest 1-1" dt="text" by="470" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /&quot;msg&quot;:&quot;success&quot;/</failureMessage>
+  </assertionResult>
+</httpSample>
+<sample t="2" lt="1" ts="1450949123996" s="true" lb="checkqa" rc="200" rm="OK" tn="InterTest 1-1" dt="text" by="8" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<httpSample t="34" lt="34" ts="1450949124000" s="false" lb="createslr" rc="200" rm="OK" tn="InterTest 1-1" dt="text" by="470" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /&quot;msg&quot;:&quot;success&quot;/</failureMessage>
+  </assertionResult>
+</httpSample>
+<sample t="1" lt="0" ts="1450949124035" s="true" lb="checkslr" rc="200" rm="OK" tn="InterTest 1-1" dt="text" by="8" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<httpSample t="35" lt="35" ts="1450949124038" s="false" lb="createslm" rc="200" rm="OK" tn="InterTest 1-1" dt="text" by="470" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /&quot;msg&quot;:&quot;success&quot;/</failureMessage>
+  </assertionResult>
+</httpSample>
+<sample t="1" lt="0" ts="1450949124075" s="true" lb="checkslm" rc="200" rm="OK" tn="InterTest 1-1" dt="text" by="8" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<httpSample t="25" lt="25" ts="1450949124078" s="true" lb="signout" rc="200" rm="OK" tn="InterTest 1-1" dt="text" by="350" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+
+</testResults>
