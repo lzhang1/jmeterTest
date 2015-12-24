@@ -3,7 +3,7 @@
     <tstamp>
         <format property="time" pattern="yyyyMMddhhmm" />
     </tstamp>
-		<property name="jmeter.home" value="/home/rayzhang/apache-jmeter" />
+		<property name="jmeter.home" value="{user.dir}" />
 		<property name="jmeter.result.jtl.dir" value="${user.dir}/reportLog/jtl/" />
 		<property name="jmeter.result.html.dir" value="${user.dir}/reportLog/html/" />
     <property name="ReportName" value="TestReport" />
@@ -18,7 +18,7 @@
     <target name="test">
         <taskdef name="jmeter" classname="org.programmerplanet.ant.taskdefs.jmeter.JMeterTask" />
         <jmeter jmeterhome="${jmeter.home}" resultlog="${jmeter.result.jtlName}">
-						<testplans dir="/home/rayzhang/jmeterTest/script" includes="*.jmx" />
+								<testplans dir="${user.dir}/script" includes="*.jmx" />
         </jmeter>
     </target>
     <target name="report">
