@@ -22,7 +22,7 @@
         </jmeter>
     </target>
     <target name="report">
-        <xslt in="${jmeter.result.jtlName}" out="${jmeter.result.htmlName}" style="${user.dir}/extras/jmeter-results-detail-report_21.xsl" />
+        <xslt in="${jmeter.result.jtlName}" out="${jmeter.result.htmlName}" style="${jenkins.home}/extras/jmeter-results-detail-report_21.xsl" />
         <copy todir="${jmeter.result.html.dir}">
             <fileset dir="${jmeter.home}/extras">
                 <include name="collapse.png" />
