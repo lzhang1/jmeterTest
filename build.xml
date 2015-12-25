@@ -3,7 +3,7 @@
     <tstamp>
         <format property="time" pattern="yyyyMMddhhmm" />
     </tstamp>
-		<property name="jmeter.home" value="{user.dir}" />
+		<property name="jmeter.home" value="${user.home}/apache-jmeter" />
 		<property name="jmeter.result.jtl.dir" value="${user.dir}/reportLog/jtl/" />
 		<property name="jmeter.result.html.dir" value="${user.dir}/reportLog/html/" />
     <property name="ReportName" value="TestReport" />
@@ -18,11 +18,11 @@
     <target name="test">
         <taskdef name="jmeter" classname="org.programmerplanet.ant.taskdefs.jmeter.JMeterTask" />
         <jmeter jmeterhome="${jmeter.home}" resultlog="${jmeter.result.jtlName}">
-								<testplans dir="${user.dir}/script" includes="*.jmx" />
+								<testplans dir="${user.dir}/script/" includes="*.jmx" />
         </jmeter>
     </target>
     <target name="report">
-        <xslt in="${jmeter.result.jtlName}" out="${jmeter.result.htmlName}" style="${jmeter.home}/extras/jmeter-results-detail-report_21.xsl" />
+        <xslt in="${jmeter.result.jtlName}" out="${jmeter.result.htmlName}" style="${user.dir}/extras/jmeter-results-detail-report_21.xsl" />
         <copy todir="${jmeter.result.html.dir}">
             <fileset dir="${jmeter.home}/extras">
                 <include name="collapse.png" />
