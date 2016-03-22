@@ -30,7 +30,7 @@
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="用户定义的变量" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">192.168.1.198</stringProp>
+          <stringProp name="HTTPSampler.domain">192.168.1.218</stringProp>
           <stringProp name="HTTPSampler.port">80</stringProp>
           <stringProp name="HTTPSampler.connect_timeout"></stringProp>
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -100,7 +100,7 @@ if (hasErr)
                     </elementProp>
                   </collectionProp>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">192.168.1.198</stringProp>
+                <stringProp name="HTTPSampler.domain">192.168.1.218</stringProp>
                 <stringProp name="HTTPSampler.port">80</stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -149,7 +149,7 @@ if (hasErr)
                     </elementProp>
                   </collectionProp>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">192.168.1.198</stringProp>
+                <stringProp name="HTTPSampler.domain">192.168.1.218</stringProp>
                 <stringProp name="HTTPSampler.port">80</stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -198,7 +198,7 @@ if (hasErr)
                     </elementProp>
                   </collectionProp>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">192.168.1.198</stringProp>
+                <stringProp name="HTTPSampler.domain">192.168.1.218</stringProp>
                 <stringProp name="HTTPSampler.port">80</stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -248,7 +248,7 @@ if (hasErr)
                   </elementProp>
                 </collectionProp>
               </elementProp>
-              <stringProp name="HTTPSampler.domain">192.168.1.198</stringProp>
+              <stringProp name="HTTPSampler.domain">192.168.1.218</stringProp>
               <stringProp name="HTTPSampler.port">80</stringProp>
               <stringProp name="HTTPSampler.connect_timeout"></stringProp>
               <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -284,7 +284,7 @@ if (hasErr)
                   </elementProp>
                   <elementProp name="Referer" elementType="Header">
                     <stringProp name="Header.name">Referer</stringProp>
-                    <stringProp name="Header.value">http://192.168.1.198/mis/account/signin</stringProp>
+                    <stringProp name="Header.value">http://192.168.1.218/mis/account/signin</stringProp>
                   </elementProp>
                   <elementProp name="X-Requested-With" elementType="Header">
                     <stringProp name="Header.name">X-Requested-With</stringProp>
@@ -317,7 +317,7 @@ if (hasErr)
               <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
-              <stringProp name="HTTPSampler.domain">192.168.1.198</stringProp>
+              <stringProp name="HTTPSampler.domain">192.168.1.218</stringProp>
               <stringProp name="HTTPSampler.port"></stringProp>
               <stringProp name="HTTPSampler.connect_timeout"></stringProp>
               <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -505,7 +505,7 @@ if (hasErr)
                   <boolProp name="keepAlive">true</boolProp>
                   <stringProp name="connectionAge">5000</stringProp>
                   <stringProp name="checkQuery">Select 1</stringProp>
-                  <stringProp name="dbUrl">jdbc:mysql://192.168.1.198:3306/mis</stringProp>
+                  <stringProp name="dbUrl">jdbc:mysql://192.168.1.218:3306/mis</stringProp>
                   <stringProp name="driver">com.mysql.jdbc.Driver</stringProp>
                   <stringProp name="username">root</stringProp>
                   <stringProp name="password">ppbaoxian</stringProp>
@@ -693,7 +693,7 @@ if (hasErr)
                   <boolProp name="keepAlive">true</boolProp>
                   <stringProp name="connectionAge">5000</stringProp>
                   <stringProp name="checkQuery">Select 1</stringProp>
-                  <stringProp name="dbUrl">jdbc:mysql://192.168.1.198:3306/mis</stringProp>
+                  <stringProp name="dbUrl">jdbc:mysql://192.168.1.218:3306/mis</stringProp>
                   <stringProp name="driver">com.mysql.jdbc.Driver</stringProp>
                   <stringProp name="username">root</stringProp>
                   <stringProp name="password">ppbaoxian</stringProp>
@@ -848,7 +848,7 @@ if (hasErr)
                   <boolProp name="keepAlive">true</boolProp>
                   <stringProp name="connectionAge">5000</stringProp>
                   <stringProp name="checkQuery">Select 1</stringProp>
-                  <stringProp name="dbUrl">jdbc:mysql://192.168.1.198:3306/mis</stringProp>
+                  <stringProp name="dbUrl">jdbc:mysql://192.168.1.218:3306/mis</stringProp>
                   <stringProp name="driver">com.mysql.jdbc.Driver</stringProp>
                   <stringProp name="username">root</stringProp>
                   <stringProp name="password">ppbaoxian</stringProp>
@@ -1003,7 +1003,7 @@ if (hasErr)
                   <boolProp name="keepAlive">true</boolProp>
                   <stringProp name="connectionAge">5000</stringProp>
                   <stringProp name="checkQuery">Select 1</stringProp>
-                  <stringProp name="dbUrl">jdbc:mysql://192.168.1.198:3306/mis</stringProp>
+                  <stringProp name="dbUrl">jdbc:mysql://192.168.1.218:3306/mis</stringProp>
                   <stringProp name="driver">com.mysql.jdbc.Driver</stringProp>
                   <stringProp name="username">root</stringProp>
                   <stringProp name="password">ppbaoxian</stringProp>
@@ -1158,7 +1158,7 @@ if (hasErr)
                   <boolProp name="keepAlive">true</boolProp>
                   <stringProp name="connectionAge">5000</stringProp>
                   <stringProp name="checkQuery">Select 1</stringProp>
-                  <stringProp name="dbUrl">jdbc:mysql://192.168.1.198:3306/mis</stringProp>
+                  <stringProp name="dbUrl">jdbc:mysql://192.168.1.218:3306/mis</stringProp>
                   <stringProp name="driver">com.mysql.jdbc.Driver</stringProp>
                   <stringProp name="username">root</stringProp>
                   <stringProp name="password">ppbaoxian</stringProp>
@@ -1196,7 +1196,7 @@ if (hasErr)
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">192.168.1.198</stringProp>
+            <stringProp name="HTTPSampler.domain">192.168.1.218</stringProp>
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
