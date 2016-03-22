@@ -345,7 +345,7 @@ if (hasErr)
           </hashTree>
           <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="SmslogSearch" enabled="true"/>
           <hashTree>
-            <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="DefaultShow" enabled="true"/>
+            <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="DefaultShow" enabled="false"/>
             <hashTree>
               <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="defaultshow" enabled="true">
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">

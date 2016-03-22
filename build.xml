@@ -11,6 +11,11 @@
     <property name="jmeter.result.htmlName" value="${jmeter.result.html.dir}/${ReportName}${time}.html" />
     <property name="mail_to" value="zhlei315@163.com" />
     <property name="ComputerName" value="rayzhang-ThinkPad-X240" />
+		<property name="lib.dir" value="${jmeter.home}/lib"/>
+		<path id="xslt.classpath">
+			<fileset dir="${lib.dir}" includes="xalan*.jar"/>
+			<fileset dir="${lib.dir}" includes="serializer*.jar"/>
+		</path>
     <target name="all">
         <antcall target="test" />
         <antcall target="report" />
@@ -22,7 +27,15 @@
         </jmeter>
     </target>
     <target name="report">
-        <xslt in="${jmeter.result.jtlName}" out="${jmeter.result.htmlName}" style="${jmeter.home}/extras/jmeter-results-detail-report_21.xsl" />
+				<tstamp><format property="report.datestamp" pattern="yyyy/MM/dd HH:mm"/></tstamp>
+				<xslt
+					classpathref="xslt.classpath"
+					force="true"
+					in="${jmeter.result.jtlName}" 
+					out="${jmeter.result.htmlName}" 
+					style="${jmeter.home}/extras/jmeter-results-detail-report_21.xsl">
+					<param name="dateReport" expression="${report.datestamp}"/>
+				</xslt>
         <copy todir="${jmeter.result.html.dir}">
             <fileset dir="${jmeter.home}/extras">
                 <include name="collapse.png" />

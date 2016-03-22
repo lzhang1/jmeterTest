@@ -1,3 +1,4 @@
 *.html
+clearfile.sh
 *.jtl
 trancatedb.py
